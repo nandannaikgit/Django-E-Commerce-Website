@@ -3,4 +3,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def services(request):
-    return HttpResponse("<h1> This is service page </h1>")
+    return render(request, 'service.html',{})

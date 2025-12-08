@@ -27,4 +27,5 @@ urlpatterns = [
     path('',home,name="home"),
     path('services/',services,name="services"),
     path('products/',products,name="products"),
+    
 ]
